@@ -1,0 +1,15 @@
+output_display.c:15:6:turnOnRed1	8	static
+output_display.c:19:6:turnOnGreen1	8	static
+output_display.c:23:6:turnOnYellow1	8	static
+output_display.c:27:6:turnOff1	8	static
+output_display.c:32:6:turnOnRed2	8	static
+output_display.c:36:6:turnOnGreen2	8	static
+output_display.c:40:6:turnOnYellow2	8	static
+output_display.c:44:6:turnOff2	8	static
+output_display.c:49:6:blinkAllRed	8	static
+output_display.c:60:6:blinkAllGreen	8	static
+output_display.c:71:6:blinkAllYellow	8	static
+output_display.c:82:6:pedStop	8	static
+output_display.c:86:6:pedGo	8	static
+output_display.c:91:6:pedOff	8	static
+output_display.c:96:6:blinkPA51s	8	static
