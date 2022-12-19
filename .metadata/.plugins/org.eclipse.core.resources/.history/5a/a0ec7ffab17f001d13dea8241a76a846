@@ -67,14 +67,6 @@ static void MX_TIM2_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
-char str[15];		//buffer store data to send
-void UART_Print()
-{
-	sprintf(str, "!7SEG:%lu#\r\n", printNumber);
-	HAL_UART_Transmit(&huart2, (uint8_t*)str, strlen(str), 2000);
-}
-
 void fsm_buzzer_processing(){
 	switch (status_buzzer) {
 		case BUZ_ON:

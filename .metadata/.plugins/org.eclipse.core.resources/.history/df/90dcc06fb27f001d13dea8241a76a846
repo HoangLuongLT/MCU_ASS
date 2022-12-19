@@ -26,21 +26,11 @@ void fsm_manual_processing(){
 			if(isButtonPress(1)){
 				setTimer1(timeOut);
 				redDuration++;
-
-
-				printNumber=redDuration;
-				UART_Print();
-
 			}
 			//button 3
 			if(isButtonPress(2)){
 				setTimer1(timeOut);
 				redDuration--;
-
-
-				printNumber=redDuration;
-				UART_Print();
-
 			}
 			//Time out 10s
 			if(timer1_flag==1){
@@ -66,20 +56,11 @@ void fsm_manual_processing(){
 			if(isButtonPress(1)){
 				setTimer1(timeOut);
 				greenDuration++;
-
-				printNumber=greenDuration;
-				UART_Print();
-
 			}
 			//button 3
 			if(isButtonPress(2)){
 				setTimer1(timeOut);
 				greenDuration--;
-
-
-				printNumber=greenDuration;
-				UART_Print();
-
 			}
 			//Time out 10s
 			if(timer1_flag==1){
@@ -106,21 +87,11 @@ void fsm_manual_processing(){
 			if(isButtonPress(1)){
 				setTimer1(timeOut);
 				yellowDuration++;
-
-
-				printNumber=yellowDuration;
-				UART_Print();
-
 			}
 			//button 3
 			if(isButtonPress(2)){
 				setTimer1(timeOut);
 				yellowDuration--;
-
-
-				printNumber=yellowDuration;
-				UART_Print();
-
 			}
 			//Time out 10s
 			if(timer1_flag==1){

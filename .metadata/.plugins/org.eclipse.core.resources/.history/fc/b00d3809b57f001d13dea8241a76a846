@@ -10,7 +10,6 @@
 #include "output_display.h"
 #include "software_timer.h"
 #include "button.h"
-#include "main.h"
 
 void fsm_auto_processing(){
 	switch (status) {

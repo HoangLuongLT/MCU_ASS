@@ -10,7 +10,6 @@
 #include "output_display.h"
 #include "software_timer.h"
 #include "button.h"
-#include "main.h"
 
 void fsm_auto_processing(){
 	switch (status) {
@@ -108,7 +107,6 @@ void fsm_auto_processing(){
 				setTimer0(1000);
 
 				printNumber=2*redDuration-numberCounter;
-				UART_Print();
 
 				if(++numberCounter == (2*redDuration)){
 					status=	AUTO_RED_GREEN;

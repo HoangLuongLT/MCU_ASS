@@ -20,8 +20,6 @@ extern int numberCounter;
 
 extern int led;
 
-extern int printNumber;
-
 int timeOutMan;
 
 extern int dutyCycle;
